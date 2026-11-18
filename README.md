@@ -22,4 +22,4 @@ Generated a tool that projects  net income for the years from 2022-2025 (inclusi
 
 Made use of IFAND statement , and SUM  Functions
 
-Used VBA to conduct scenario analysis , to analyse the impact of 4 distinct interest rates on the Net income.
+Used VBA for the conduction of scenario analysis , to analyse the impact of 4 distinct interest rates on the Net income.
