@@ -22,4 +22,4 @@ Generated a tool that projects  net income for the years from 2022-2025 (inclusi
 
 Made use of IFAND statement , and SUM  Functions
 
-Then used VBA for loops to automate the scenario analysis of 4 different variable interests ,  calculating the total Net income under each interest scenario for all the 100 records. That is making in total 400 entries all at once.
+Used VBA to conduct scenario analysis , to analyse the impact of 4 distinct interest rates on the Net income.
