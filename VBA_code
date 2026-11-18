@@ -1,0 +1,20 @@
+Sub NetIncome()
+
+For j = 2 To 101
+For i = 2 To 8 Step 2
+Sheets("2021 Income Statement2").Cells(18, "L").Value = i / 100
+Sheets("2021 Income Statement2").Cells(3, "M").Value = Sheets("Scenarios").Cells(j, "B").Value
+Sheets("2021 Income Statement2").Cells(4, "M").Value = Sheets("Scenarios").Cells(j, "C").Value
+Sheets("2021 Income Statement2").Cells(5, "M").Value = Sheets("Scenarios").Cells(j, "D").Value
+Sheets("2021 Income Statement2").Cells(7, "M").Value = Sheets("Scenarios").Cells(j, "E").Value
+Sheets("2021 Income Statement2").Cells(8, "M").Value = Sheets("Scenarios").Cells(j, "F").Value
+Sheets("2021 Income Statement2").Cells(9, "M").Value = Sheets("Scenarios").Cells(j, "G").Value
+Sheets("2021 Income Statement2").Cells(10, "M").Value = Sheets("Scenarios").Cells(j, "H").Value
+Sheets("2021 Income Statement2").Cells(11, "M").Value = Sheets("Scenarios").Cells(j, "I").Value
+Sheets("2021 Income Statement2").Cells(12, "M").Value = Sheets("Scenarios").Cells(j, "J").Value
+
+Sheets("Scenarios").Cells(j, i / 2 + 10).Value = Sheets("2021 Income Statement2").Cells(21, "L").Value
+
+Next i
+Next j
+End Sub
